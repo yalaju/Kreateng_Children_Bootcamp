@@ -1,0 +1,133 @@
+.bodysec3 {
+  padding: 70px 20px;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.sec3body {
+  margin: 0 auto;
+  background: white;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  border-radius: 50px;
+  padding: 25px 110px;
+}
+@media (max-width: 991px) {
+  .sec3body {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1px 0px;
+  }
+}
+
+.pro1 {
+  margin-top: 200px;
+  width: 350px;
+  text-align: left;
+  color: black;
+}
+@media (max-width: 991px) {
+  .pro1 {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 320px;
+  }
+}
+
+.pro1 h2 {
+  font-size: 70px;
+  color: #6dab32;
+}
+@media (max-width: 991px) {
+  .pro1 h2 {
+    font-size: 55px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+}
+
+.pro1 P {
+  padding-top: 15px;
+  font-size: 25px;
+}
+@media (max-width: 991px) {
+  .pro1 p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .idontknow {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+
+.img1 {
+  margin: 0 auto;
+  width: 350px;
+  text-align: left;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background-color: #6dab32;
+  margin-left: 350px;
+  color: white;
+}
+@media (max-width: 991px) {
+  .img1 {
+    margin: 0 auto;
+    margin-left: 0px;
+    padding: 15px 20px;
+    width: 320px;
+  }
+}
+@media (max-width: 991px) {
+  .img1 img {
+    width: 100%;
+  }
+}
+.img1 h4 {
+  font-size: 30px;
+  padding-top: 8px;
+}
+.img1 P {
+  padding-top: 5px;
+  font-size: 22px;
+}
+
+.img2 {
+  margin: 0 auto;
+  width: 350px;
+  text-align: left;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background-color: #ff7402;
+  margin-right: 290px;
+  margin-top: 15px;
+  color: white;
+}
+@media (max-width: 991px) {
+  .img2 {
+    margin: 0 auto;
+    margin-right: 0px;
+    padding: 15px 20px;
+    margin-left: 0px;
+    padding: 15px 20px;
+    width: 320px;
+  }
+}
+.img2 img {
+  border-radius: 10px;
+}
+.img2 h4 {
+  font-size: 30px;
+  padding-top: 8px;
+}
+.img2 P {
+  padding-top: 5px;
+  font-size: 22px;
+}

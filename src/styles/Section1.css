@@ -1,0 +1,147 @@
+.sec1body {
+  margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.sec1body h1 {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 75px;
+}
+@media (max-width: 991px) {
+  .sec1body h1 {
+    font-size: 45px;
+    width: 90%;
+  }
+}
+
+.ptags {
+  margin: 0 auto;
+  width: 59%;
+  font-size: 25px;
+  color: black;
+  padding-bottom: 12px;
+}
+@media (max-width: 991px) {
+  .ptags {
+    font-size: 20px;
+    width: 95%;
+    padding-bottom: 0px;
+  }
+}
+
+
+
+.regist {
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .regist {
+    width: 95%;
+  }
+}
+
+.regist button {
+  border-style: none;
+  font-size: 30px;
+  color: white;
+  background-color: #ff7402;
+  border-radius: 10px;
+  padding: 2px 27px;
+}
+
+.regist button:hover {
+  background: #bb6117;
+    padding: 4px 40px;
+
+}
+
+@media (max-width: 991px) {
+  .regist button {
+    padding: 5px 70px;
+    font-size: 20px;
+    /* width: 80%; */
+  }
+}
+
+
+
+.regist2 {
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+@media (max-width: 991px) {
+  .regist2 {
+    width: 75%;
+  }
+}
+
+.regist2 button {
+  border-style: none;
+  font-size: 30px;
+  color: white;
+  background-color: #6dab32;
+  border-radius: 10px;
+  padding: 2px 30px;
+}
+
+.regist2 button:hover {
+  background: #395f15;
+    padding: 4px 40px;
+
+}
+
+@media (max-width: 991px) {
+  .regist2 button {
+    padding: 5px 50px;
+    font-size: 20px;
+  }
+}
+
+
+
+
+.laptop{
+    position: relative;
+    bottom: 16rem;
+    right: 34rem;
+}
+@media (max-width:1452px) {
+  .laptop{
+    display: none;
+    
+  }
+}
+.light{
+    position: relative;
+    top: 65rem;
+    left: 15rem;
+}
+@media (max-width:1452px) {
+  .light{
+    display: none;
+    
+  }
+}
+
+
+.reg{
+    display: flex;
+    width: 70%;
+    gap: 30%;
+    margin: 0 auto;
+    
+  }
+
+@media (max-width: 991px) {
+  .reg{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 15px;
+    
+  }
+}
