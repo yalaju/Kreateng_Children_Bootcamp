@@ -2,15 +2,13 @@ import React from "react";
 import "../styles/Section2.css";
 import dash from "../Images/dash.png";
 import boy from "../Images/babyboy.png";
-import girl from "../Images/babygirl.png"
-import p1 from "../Images/person1.png"
-import p2 from "../Images/person2.png"
-import jet from "../Images/rocket.png"
-import fly from "../Images/design 1.png"
-import comp from "../Images/graphic-design 1.png"
-import mid from "../Images/logo 2.png"
-
-
+import girl from "../Images/babygirl.png";
+import p1 from "../Images/person1.png";
+import p2 from "../Images/person2.png";
+import jet from "../Images/rocket.png";
+import fly from "../Images/design 1.png";
+import comp from "../Images/graphic-design 1.png";
+import mid from "../Images/logo 2.png";
 
 const Section2 = () => {
   return (
@@ -25,17 +23,19 @@ const Section2 = () => {
               style={{ paddingTop: "50px", paddingRight: "10px" }}
             />
             <div>
-              We don’t just give our students only lecture but real life
-              experiment workshops filled experience throughout!
+              Experience, Explore and Engage! Our workshops for children are not
+              just about lectures, but real-life experiments filled with
+              excitement and fun. Let's learn and play together! (Experience,
+              Explore and Engage can be in bold and green colour)
             </div>
           </p>
         </div>
-        <div>
+        <div className="imgboy-girl">
           <img src={boy} alt="" />
         </div>
       </div>
       <div className="sec2flex2">
-        <div>
+        <div className="imgboy-girl">
           <img src={girl} alt="" />
         </div>
         <div className="sec2flexin2">
@@ -46,11 +46,17 @@ const Section2 = () => {
               height="10%"
               style={{ paddingTop: "30px", paddingRight: "15px" }}
             />
-            <div>
+            <div className="font">
               <h1 style={{ fontSize: "50px" }}>
-                <b>80</b>
+                <b>100+</b>
               </h1>
-              Total students who have taken the courses
+              {/* <p> */} {/* <span> */}
+              <h3>
+                Over 100 children have participated in our previous children
+                boot camps
+              </h3>
+              {/* </span> */}
+              {/* </p> */}
             </div>
           </p>
           <p style={{ display: "flex" }}>
@@ -60,11 +66,15 @@ const Section2 = () => {
               height="10%"
               style={{ paddingTop: "30px", paddingRight: "15px" }}
             />
-            <div>
+            <div className="font">
               <h1 style={{ fontSize: "50px" }}>
                 <b>50</b>
               </h1>
-              Total available space for the program
+              {/* <p> */}
+              {/* <span> */}
+              <h3>Total available space for the program</h3>
+              {/* </span> */}
+              {/* </p> */}
             </div>
           </p>
         </div>
@@ -76,8 +86,6 @@ const Section2 = () => {
       <div className="jet2">
         <img src={fly} alt="" />
       </div>
-
-
 
       <div className="jet3">
         <img src={comp} alt="" />

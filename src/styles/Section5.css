@@ -12,6 +12,9 @@
   display: flex;
   justify-content: space-between;
   margin-top: 70px;
+  /* border: 1px solid red; */
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 @media (max-width: 991px) {
   .sec5-in {

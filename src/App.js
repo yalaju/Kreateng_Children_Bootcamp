@@ -12,10 +12,8 @@ function App() {
         <Navbar1/>
         <Routes>
           <Route path='/' element={<Landingpag/>}/>
-
         </Routes>
       </BrowserRouter>
-      
     </div>
   );
 }

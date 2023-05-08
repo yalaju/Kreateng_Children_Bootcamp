@@ -32,12 +32,14 @@
     padding: 30px 30px;
     background-color: #ff7402;
     border-radius: 40px;
+        /* color: white; */
+
 }
 
 .init{
     display: flex;
     gap: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 
@@ -51,12 +53,13 @@
     padding: 30px 30px;
     background-color: #6dab32;
     border-radius: 40px;
+    /* color: white; */
 }
 
 .init2{
     display: flex;
     gap: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .img111{

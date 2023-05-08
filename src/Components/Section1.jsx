@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Section1.css";
 import laptop from "../Images/fly-1.png";
-import light from "../Images/idea.png"
+import light from "../Images/idea.png";
 
 const Section1 = () => {
   return (
@@ -11,9 +11,11 @@ const Section1 = () => {
       </h1>
       <div className="ptags">
         <p>
-          This year Children’s day, we are getting children in Lagos into tech
-          again! Let your kids be taught coding and graphics design. This is for
-          kids in Lagos between ages 6 to 13 years.{" "}
+          This Children's Day, give your kids the gift of coding and graphics
+          design, and watch them unlock a whole new world of creativity and
+          innovation. This opportunity is exclusively for kids between the ages
+          of 6 to 13 residing in Lagos. Sign up your kids today and set them on
+          the path to a brighter future. <br />
           <span style={{ color: "#FF7402" }}>ADMISSION IS FREE.</span>
         </p>
       </div>

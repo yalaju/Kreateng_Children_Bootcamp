@@ -18,13 +18,13 @@ const Section4 = () => {
       </div>
       <div className="pics">
         {/* <div> */}
-          <img src={img1} alt="" width="100%" />
+        <img src={img1} alt="" width="100%" />
         {/* </div>
         <div> */}
-          <img src={img2} alt="" width="100%"/>
+        <img src={img2} alt="" width="100%" />
         {/* </div>
         <div> */}
-          <img src={img3} alt="" width="100%" />
+        <img src={img3} alt="" width="100%" />
         {/* </div> */}
       </div>
     </div>

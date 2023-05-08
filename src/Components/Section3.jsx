@@ -13,25 +13,25 @@ const Section3 = () => {
         <div className="pro1">
           <h2>Programs</h2>
           <p>
-            Our program are designed to help develop your children learn basics
+            Our Programs is designed to help develop your children learn basics
             of graphic design and web development
           </p>
         </div>
-        <div className='idontknow'>
+        <div className="idontknow">
           <div className="img1">
             <img src={img2} alt="" />
             <h4>Graphics Design</h4>
             <p>
-              Create a visually appealing designfor your business to attract
-              clients to the business
+              Create a visually appealing design for your business to attract
+              clients to the business.
             </p>
           </div>
           <div className="img2">
             <img src={img1} alt="" width="100%" />
-            <h4>Mobile Development</h4>
+            <h4>Web development </h4>
             <p>
               Create an app for business for a more professional business
-              performance
+              performance.
             </p>
           </div>
         </div>
