@@ -13,7 +13,7 @@ const Navbar1 = () => {
           <div className="logocont">
             <Navbar.Brand href="#home" className="logo">
               {/* <a> */}
-              <img src={logo} alt="" width="100%" />
+              <img src={logo} alt="" width="90%" />
               
             </Navbar.Brand>
             {/* <Navbar.Toggle aria-controls="basic-navbar-nav" className="hand" /> */}

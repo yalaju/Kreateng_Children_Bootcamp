@@ -38,7 +38,7 @@ const Section6 = () => {
           </h1>
           <div className="init2">
             <img src={time} alt="" />
-            <h4>10am - 12pm</h4>
+            <h4>10am - 2pm</h4>
           </div>
           <div className="init2">
             <img src={cale} alt="" />

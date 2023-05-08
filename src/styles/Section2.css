@@ -126,11 +126,16 @@
     display: none;
   }
 }
-
+/* 
 .jet4 {
   position: relative;
-  top: 40rem;
-  right: 25rem;
+  bottom: 92rem;
+  right: 45rem;
+} */
+.jet4 {
+  position: relative;
+  top: 32rem;
+  right: 45rem;
 }
 
 @media (max-width: 1452px) {

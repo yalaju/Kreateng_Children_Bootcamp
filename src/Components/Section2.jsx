@@ -25,8 +25,7 @@ const Section2 = () => {
             <div>
               Experience, Explore and Engage! Our workshops for children are not
               just about lectures, but real-life experiments filled with
-              excitement and fun. Let's learn and play together! (Experience,
-              Explore and Engage can be in bold and green colour)
+              excitement and fun. Let's learn and play together!
             </div>
           </p>
         </div>

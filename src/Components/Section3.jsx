@@ -27,7 +27,7 @@ const Section3 = () => {
             </p>
           </div>
           <div className="img2">
-            <img src={img1} alt="" width="100%" />
+            <img src={img1} alt="" />
             <h4>Web development </h4>
             <p>
               Create an app for business for a more professional business
