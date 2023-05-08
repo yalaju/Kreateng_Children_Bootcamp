@@ -20,12 +20,15 @@ const Section2 = () => {
               src={dash}
               alt=""
               height="10%"
-              style={{ paddingTop: "50px", paddingRight: "10px" }}
+              style={{ paddingTop: "100px", paddingRight: "10px" }}
             />
             <div>
-              Experience, Explore and Engage! Our workshops for children are not
-              just about lectures, but real-life experiments filled with
-              excitement and fun. Let's learn and play together!
+              <b style={{ color: "#6dab32" }}>
+                Experience, Explore and Engage!
+              </b>{" "} <br />
+              Our workshops for children are not just about lectures, but
+              real-life experiments filled with excitement and fun. Let's learn
+              and play together!
             </div>
           </p>
         </div>
